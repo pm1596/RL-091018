@@ -5,7 +5,7 @@ from Grid import standard_grid
 from utility import print_values, print_policy
 
 
-THETA = 1e-3
+THETA = 1e-4
 GAMMA = 0.9
 ALL_POSSIBLE_ACTIONS = ('U', 'D', 'L', 'R')
 
