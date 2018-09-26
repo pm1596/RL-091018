@@ -5,7 +5,7 @@ from Grid import standard_grid
 from utility import print_values, print_policy
 
 
-THETA = 1e-4
+THETA = 1e-3
 GAMMA = 0.9
 ALL_POSSIBLE_ACTIONS = ('U', 'D', 'L', 'R')
 
@@ -67,7 +67,7 @@ def calculate_greedy_policy(grid, V):
 if __name__ == '__main__':
   # grid gives a reward of -0.1 for every non-terminal state
   # AIM : finding a shorter path to the goal
-  grid = standard_grid(obey_prob=-0.1, step_cost=None)
+  grid = standard_grid(obey_prob=0.1, step_cost=None)
 
   # print rewards
   print("rewards:")
