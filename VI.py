@@ -7,7 +7,7 @@ from utility import print_values, print_policy
 
 THETA = 1e-3
 GAMMA = 0.9
-ALL_POSSIBLE_ACTIONS = ('U', 'D', 'L', 'R')
+ALL_POSSIBLE_ACTIONS = ('UP', 'DOWN', 'LT', 'RT')
 
 def best_action_value(grid, V, s):
   # finds the MAXIMUM value action (max_a) from state s, return the action and value
@@ -86,7 +86,7 @@ if __name__ == '__main__':
   print_policy(policy, grid)
 
 
-
+#change the value of obey_prob 
 '''
 C:\Users\PRANJAL\Desktop>python VI.py
 rewards:
