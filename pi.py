@@ -1,3 +1,8 @@
+'''
+generate a large number of random points and see how many fall in the circle enclosed by the square.
+REF: pi_op for visualization
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 
