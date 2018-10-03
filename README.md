@@ -1,3 +1,4 @@
 # RL-091018
 
-##1.Hard Problems and General Intelligence
+#General intelligence and NP hard problems
+#Monte carlo vs MDP
