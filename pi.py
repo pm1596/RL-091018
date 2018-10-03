@@ -1,5 +1,6 @@
 '''
-generate a large number of random points and see how many fall in the circle enclosed by the square.
+Using monte carlo method estimate the value of pi
+generate a large number of random points and see how many fall in the circle enclosed by the unit square.
 REF: pi_op for visualization
 '''
 
