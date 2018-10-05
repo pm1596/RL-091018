@@ -1,3 +1,3 @@
 # RL-091018
 
-#General intelligence and NP hard problems
+#General intelligence and hard problems
