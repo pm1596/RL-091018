@@ -5,3 +5,6 @@
 #Markov Decision Process(MDP)
 #Monte Carlo(MC)
 
+
+#Q Learning credits : Colin Skow
+
